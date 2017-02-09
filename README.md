@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/alexamirante/usrsctp.svg?branch=master)](https://travis-ci.org/alexamirante/usrsctp)
 # usrsctp
 
 This is a userland SCTP stack supporting FreeBSD, Linux, Mac OS X and Windows.
