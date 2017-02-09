@@ -5,5 +5,7 @@ sudo: required
 compiler:
   - gcc
 
+install: .install-deps-travis.sh
+
 script:
-  - ./bootstrap && ./configure --prefix=/usr && make && sudo make install
+  - sudo make install
