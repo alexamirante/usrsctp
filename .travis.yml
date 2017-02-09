@@ -1,0 +1,11 @@
+language: c
+dist: trusty
+sudo: required
+
+compiler:
+  - gcc
+
+#install: ./.install-deps-travis.sh
+
+script:
+  - ./bootstrap && ./configure --prefix=/usr && make && sudo make install
